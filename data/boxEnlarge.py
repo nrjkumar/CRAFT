@@ -45,7 +45,6 @@ def sidePoint(Apoint, Bpoint, h, w, placehold):
 
     return int(x1), int(y1)
 
-# 将box扩大1.5倍
 def enlargebox(box, h, w):
     # box = [Apoint, Bpoint, Cpoint, Dpoint]
     Apoint, Bpoint, Cpoint, Dpoint = box
